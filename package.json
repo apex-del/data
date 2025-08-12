@@ -1,15 +1,15 @@
 {
-  "name": "hianime-cron-scraper",
-  "version": "1.1.0",
+  "name": "anime-scraper",
+  "version": "1.0.0",
   "type": "module",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
     "node-fetch": "^3.3.2",
-    "pg": "^8.11.3",
-    "p-retry": "^4.6.2",
-    "dotenv": "^16.3.1"
+    "pg": "^8.11.3"
   }
 }
